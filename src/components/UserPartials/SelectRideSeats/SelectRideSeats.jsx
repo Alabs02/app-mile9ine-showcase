@@ -154,7 +154,6 @@ const SelectRideSeats = ({ formData, summary }) => {
       }).then((res) => {
         setIsBooking(false);
         toast.success(`Booked Successfully!`);
-    
         toast.success(<StaffBookingCode staffBookingCode={res.data.booking.booking_code} />, {
           autoClose: false,
           position: 'top-center',

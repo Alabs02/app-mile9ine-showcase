@@ -5,6 +5,10 @@ import { getToken } from "../utils";
 import localForage from "./localforage";
 import clearRecoil from '../recoil/clearRecoil';
 
+const domain = (process.env.NODE_ENV === 'production')
+  ? process.env.REACT_APP_LIVE_DOMAIN
+  : process.env.REACT_APP_lOCAL_DOMAIN;
+
 const logoutEntity = async (endpoint, router) => {
   try {
     const { data, status, statusText } = await postRequest(endpoint, null, {
@@ -18,7 +22,7 @@ const logoutEntity = async (endpoint, router) => {
       localForage.clear().then(() => {
         clearRecoil();
         toast.success(`You've logged out successfully!`);
-        window.location.href = 'https://mile9ine.com';
+        window.location.href = domain;
         console.log('Database is now empty.');
       }).catch((e) => {
         console.error(e)
