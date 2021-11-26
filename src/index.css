@@ -108,6 +108,10 @@ body::-webkit-scrollbar-thumb:hover {
   display: none;
 }
 
+.bg-dark {
+  background: #020200 !important;
+}
+
 .error-msg {
   font-size: smaller !important;
 }
