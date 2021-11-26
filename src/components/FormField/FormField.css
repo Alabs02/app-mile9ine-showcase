@@ -1,0 +1,17 @@
+.password-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.input-append {
+  position: absolute;
+  top: 25%;
+  right: 1.2rem;
+  transform: translateY(-25%);
+  cursor: pointer;
+}
+
+.input-password {
+  padding-right: 2.5rem;
+}

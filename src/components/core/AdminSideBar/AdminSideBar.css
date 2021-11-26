@@ -1,0 +1,16 @@
+.has-flex {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.add-menu-sidebar {
+  cursor: pointer !important;
+}
+
+.nav-icon {
+  color: inherit !important;
+}
+
+.block-width {
+  width: 80% !important;
+}

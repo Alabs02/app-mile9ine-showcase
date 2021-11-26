@@ -1,0 +1,16 @@
+.wallet__balance {
+  width: 100%;
+
+  display: grid;
+  place-items: center;
+}
+
+.balance {
+  font-size: larger;
+}
+
+@media screen and (min-width: 780px) {
+  .wallet__balance {
+    display: none;
+  }
+}

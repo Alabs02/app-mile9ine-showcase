@@ -1,0 +1,10 @@
+.card_actions {
+  display: grid;
+  place-items: center;
+}
+
+@media screen and (max-width: 780px) {
+  .search__col {
+    margin-bottom: 1rem !important;
+  }
+}

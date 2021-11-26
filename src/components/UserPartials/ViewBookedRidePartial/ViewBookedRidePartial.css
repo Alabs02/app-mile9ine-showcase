@@ -1,0 +1,17 @@
+.grid-center {
+  display: grid;
+  place-items: center;
+}
+
+.booked-card {
+  overflow: hidden;
+}
+
+.booked-card:hover {
+  transform: scale(1.05);
+}
+
+.booked-card__footer {
+  display: grid;
+  place-items: center;
+}

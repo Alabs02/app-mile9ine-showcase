@@ -1,0 +1,9 @@
+.policy-modal {
+  width: 95% !important;
+}
+
+@media screen and (min-width: 780px) {
+  .policy-modal {
+    width: 80% !important;
+  }
+}

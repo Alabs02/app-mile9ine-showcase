@@ -1,0 +1,24 @@
+.form-row {
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-left: 1rem;
+  padding-right: 0.4rem;
+
+  display: grid;
+  place-items: center;
+}
+
+.btn-rounded {
+  border-radius: 0.3rem !important;
+}
+
+.card {
+  margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 780px) {
+  .form-row {
+    padding: 3rem;
+  }
+}

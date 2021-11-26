@@ -1,0 +1,8 @@
+.error-msg--light {
+  color: #ffffff !important;
+}
+
+.hover-underline:hover {
+  text-decoration: underline;
+  text-decoration-color: #fff;
+}

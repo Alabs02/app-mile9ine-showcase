@@ -1,0 +1,69 @@
+.bus-ride {
+  height: auto;
+  width: 100%;
+  border: 4px solid #9e9e9e;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  background: #fff;
+}
+
+.bus-ride__grid {
+  display: grid;
+  grid-gap: 40px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.bus-ride__seat {
+  height: 40px;
+  width: 40px;
+  border-radius: 5px;
+  background: #fafafa;
+
+  display: grid;
+  place-items: center;
+
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.bus-ride__taken {
+  background: #e53935 !important;
+  pointer-events: none;
+}
+
+.bus-ride__taken:hover {
+  transform: scale(0.9);
+}
+
+.bus-ride__selected {
+  background: #4caf50 !important;
+  color: #fff;
+}
+
+.indicator {
+  height: 20px;
+  width: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+.indicator__available {
+  background: #fff;
+}
+
+.indicator__selected {
+  background: #4caf50;
+}
+
+.indicator__booked {
+  background: #e53935;
+}
+.custom-modal {
+  width: 95% !important;
+}
+
+@media screen and (min-width: 780px) {
+  .custom-modal {
+    width: 50% !important;
+  }
+}
