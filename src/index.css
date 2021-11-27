@@ -152,6 +152,11 @@ body::-webkit-scrollbar-thumb:hover {
   text-align: center;
 }
 
+.custom__padding {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 @media screen and (min-width: 780px) {
   .top-wallet__balance {
     display: flex !important;
@@ -160,5 +165,10 @@ body::-webkit-scrollbar-thumb:hover {
   .err-text__size {
     font-size: 1.5rem;
     text-align: center;
+  }
+
+  .custom__padding {
+    padding-left: 0rem;
+    padding-right: 0rem;
   }
 }

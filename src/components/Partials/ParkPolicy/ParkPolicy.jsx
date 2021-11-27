@@ -12,7 +12,7 @@ const ParkPolicy = () => {
   return (
     <Fragment>
       <div className="m-n5 px-5">
-        <div className="d-flex justify-content-center">
+        <div className="d-flex justify-content-center custom__padding">
           <p style={{
             textAlign: 'center',
             marginBottom: '10rem',
