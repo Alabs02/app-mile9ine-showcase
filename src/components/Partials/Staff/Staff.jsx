@@ -78,7 +78,7 @@ export const RefundWalletModalAction = ({ values, isValid, errors, resetForm, mo
       <div className="mt-3 d-flex justify-content-end align-items-center">
         <button type="button" id="close_refund_staff_modal" className="btn btn-danger light mr-3" data-dismiss="modal">Close</button>
         { isLoading
-          ? <ThreeDots className="ml-3 animate__animated animate__pulse" height="1.5em" width="3.5em" stroke="#fe634e" /> 
+          ? <ThreeDots className="ml-3 animate__animated animate__pulse" height="1.5em" width="3.5em" stroke="#ec3238" /> 
           : <button onClick={retrieveStaffWallet} type="button" disabled={(isEmpty(errors) && isValid) && (_.get(values, 'amount', 0) > 0) ? false : true} className="btn btn-primary animate__animated animate__pulse">
             <FaMoneyBillWave className="mr-2" size={"18px"} />
             Retrieve Funds
@@ -179,7 +179,7 @@ export const FundWalletModalAction = ({ values, isValid, errors, resetForm }) =>
       <div className="mt-3 d-flex justify-content-end align-items-center">
         <button type="button" id="close_fund_staff_modal" className="btn btn-danger light mr-3" data-dismiss="modal">Close</button>
         { isLoading
-          ? <ThreeDots className="ml-3 animate__animated animate__pulse" height="1.5em" width="3.5em" stroke="#fe634e" /> 
+          ? <ThreeDots className="ml-3 animate__animated animate__pulse" height="1.5em" width="3.5em" stroke="#ec3238" /> 
           : <button onClick={fundStaffWallet} type="button" disabled={(isEmpty(errors) && isValid) && (_.get(values, 'amount', 0) > 0) ? false : true} className="btn btn-primary animate__animated animate__pulse">
             <FaMoneyBillWave className="mr-2" size={"18px"} />
             Fund

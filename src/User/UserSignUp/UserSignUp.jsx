@@ -89,7 +89,7 @@ const UserSignUp = () => {
                 }
               }
             } else {
-              toast.warning(`You have to agree be you can proceed!`);
+              toast.warning(`You have to agree to the Privacy Policy to proceed!`);
             }
           } catch (err) {
             setPolicy(null);
@@ -298,7 +298,7 @@ const UserSignUp = () => {
           </p>
         </section>
 
-        <section className="">
+        {/*<section className="">
           <h6 className="mt-2 font-w700 text-gray">By pressing this "Proceed to payment” button, you accept the privacy policy as well as undertake to independently find out travel requirements of transit bus/car.</h6>
           <h6 className="mt-2 font-w700 text-gray">When a user searches for a ride and it’s not on the platform, there should be a display;</h6>
           <h6 className="mt-4 mb-4 font-w700 text-dark">This ride/route is not available on the Mile9ine platform. Kindly refer this bus/car terminal and earn some income side.</h6>
@@ -333,7 +333,7 @@ const UserSignUp = () => {
             <li>Relax and watch your income trickle into your wallet.</li>
             <li>Mile9ine reserves the right to revoke this referral program if there’s reason to believe your referral link is used fraudulently.</li>
           </ol>
-        </section>
+            </section>*/}
       </PolicyModal>
     </Fragment>
   )

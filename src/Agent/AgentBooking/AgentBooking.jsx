@@ -51,7 +51,7 @@ export const AgentCardActions = ({ values, isValid, errors, resetForm }) => {
   return (
     <Fragment>
       { isLoading
-        ? <div className="d-flex justify-content-center"><ThreeDots className="ml-3 animate__animated animate__pulse" height="1.5em" width="3.5em" stroke="#fe634e" /></div>
+        ? <div className="d-flex justify-content-center"><ThreeDots className="ml-3 animate__animated animate__pulse" height="1.5em" width="3.5em" stroke="#ec3238" /></div>
         : <button onClick={verifyBookingCode} type="button" disabled={(isEmpty(errors) && isValid && _.size(_.get(values, 'booking_code')) > 0) ? false : true} className="btn btn-primary btn-block animate__animated animate__pulse">Verify Code</button>
       }
 

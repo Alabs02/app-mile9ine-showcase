@@ -38,7 +38,7 @@
                 colors: ["#fff"],
               }
 			},
-		  colors:['#214BB8','#45ADDA','#FE634E']
+		  colors:['#214BB8','#45ADDA','#ec3238']
         /* responsive: [{
           breakpoint: 480,
           options: {
@@ -76,13 +76,13 @@
 					datasets: [{
 						label: "Sales Stats",
 						backgroundColor: ['rgba(19, 180, 151, 0)'],
-						borderColor: '#FE634E',
-						pointBackgroundColor: '#FE634E',
-						pointBorderColor: '#FE634E',
+						borderColor: '#ec3238',
+						pointBackgroundColor: '#ec3238',
+						pointBorderColor: '#ec3238',
 						borderWidth:6,
 						borderRadius:10,
-						pointHoverBackgroundColor: '#FE634E',
-						pointHoverBorderColor: '#FE634E',
+						pointHoverBackgroundColor: '#ec3238',
+						pointHoverBorderColor: '#ec3238',
 						
 						data: [5, 1, 5, 1, 7, 2, 6, 1]
 					}]

@@ -85,7 +85,7 @@ const BookRide = () => {
 
                       <div className="col-sm-12 col-md-2 card_actions">
                         { isLoading
-                          ? <ThreeDots className="animate__animated animate__fadeIn" width={'5rem'} stroke="#FE634E" />
+                          ? <ThreeDots className="animate__animated animate__fadeIn" width={'5rem'} stroke="#ec3238" />
                           : <button 
                               disabled={(isEmpty(props.errors) && props.isValid) ? false : true} 
                               type="submit" 

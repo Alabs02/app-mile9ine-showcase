@@ -33,7 +33,7 @@
 }
 
 .back-btn:hover {
-  background-color: #fe634e;
+  background-color: #ec3238;
   border-radius: 50%;
   color: #fff;
 }
@@ -46,9 +46,7 @@
   margin-bottom: 1rem;
 }
 
-
 @media screen and (min-width: 780px) {
-
   .email-copy p {
     width: 60%;
   }

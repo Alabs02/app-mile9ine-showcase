@@ -162,7 +162,7 @@ export const CardActions = (props) => {
         }).catch((err) => console.error(err));
 
         setParkAdmin(data?.park_admin);
-        toast.success(`Registration successful, proceed ${data?.park_admin.email} to verify your email.`);
+        toast.success(`Registration successful, An email has been sent to your mailbox with a link!`);
         console.log("state park admin: ", parkAdmin);
         console.log('Message: ', data.message);
         
@@ -200,7 +200,7 @@ export const CardActions = (props) => {
         </button> : `` }
 
         { isLoading 
-          ? <ThreeDots className="animate__animated animate__pulse" height="1em" width="3.5em" stroke="#fe634e" />
+          ? <ThreeDots className="animate__animated animate__pulse" height="1em" width="3.5em" stroke="#ec3238" />
           : <button disabled={(!isValid) ? false : true} onClick={(e) => handleSubmit(e)} type="submit" className={(isFinal()) ? "btn btn-primary fs-6 btn-rounded animate__animated animate__pulse" : "btn btn-primary fs-6 btn-rounded animate__animated animate__pulse hide" }>
           Register
         </button> }

@@ -33,10 +33,6 @@ const UserSideBar = () => {
             type={`user`}
             isRender={`sidebar`}
           />
-
-          <span className="add-menu-sidebar">
-            👋 Hello 
-          </span>
           <ul className="metismenu" id="menu">
             <li>
               <Link to={`/park/${slugify(get(userDetails, 'name', null))}/dashboard`} className="ai-icon has-flex">

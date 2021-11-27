@@ -344,7 +344,7 @@ const UserProfile = () => {
 
                         <div className="mt-4 d-flex justify-content-end align-items-center">
                           { isLoading
-                            ? <ThreeDots className="ml-3 rounded-sm animate__animated animate__pulse" height="1.5em" width="3.5em" stroke="#fe634e" /> 
+                            ? <ThreeDots className="ml-3 rounded-sm animate__animated animate__pulse" height="1.5em" width="3.5em" stroke="#ec3238" /> 
                             : <button type="submit" disabled={(_.isEmpty(props.errors) && props.isValid) 
                                 ? false : true} className="btn btn-primary animate__animated animate__pulse">Update Profile</button>
                           }

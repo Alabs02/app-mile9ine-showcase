@@ -80,7 +80,7 @@ export const StaffModalFooter = ({ values, isValid, errors, staff, modalID }) =>
       <div className="mt-3 d-flex justify-content-end align-items-center">
         <button id="close_update_staff_modal" type="button" className="btn btn-danger light mr-3" data-dismiss="modal">Close</button>
         { isLoading
-          ? <ThreeDots className="ml-3 animate__animated animate__pulse" height="1.5em" width="3.5em" stroke="#fe634e" /> 
+          ? <ThreeDots className="ml-3 animate__animated animate__pulse" height="1.5em" width="3.5em" stroke="#ec3238" /> 
           : <button onClick={() => updateParkStaff(_.get(staff, 'agent.id', null))} type="button" disabled={(isEmpty(errors) && isValid) ? false : true} className="btn btn-primary animate__animated animate__pulse">Update</button>
         }
       </div>
@@ -175,7 +175,7 @@ export const StaffTableActions = ({ uid, loaderId, staff }) => {
 
         { isLoading
           ? <span id={loaderId} className="mr-4">
-              <ThreeDots className="animate__animated animate__pulse" fill={"#FE634E"} height={"1rem"} width={"1.8rem"} /> 
+              <ThreeDots className="animate__animated animate__pulse" fill={"#ec3238"} height={"1rem"} width={"1.8rem"} /> 
             </span>
           : <span onClick={() => removeParkStaff(_.get(staff, 'agent.id', null))} className="pointer pointer-scale mr-4">
               <i><RiDeleteBin6Line className="text-primary" size={"25px"} /></i>

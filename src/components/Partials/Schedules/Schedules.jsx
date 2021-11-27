@@ -105,7 +105,7 @@ export const AssignScheduleModalActions = ({ values, isValid, errors, resetForm,
       <div className="mt-3 d-flex justify-content-end align-items-center">
         <button type="button" id="close_assign_schedule_modal" className="btn btn-danger light mr-3" data-dismiss="modal">Close</button>
         { isLoading
-          ? <ThreeDots className="ml-3 animate__animated animate__pulse" height="1.5em" width="3.5em" stroke="#fe634e" /> 
+          ? <ThreeDots className="ml-3 animate__animated animate__pulse" height="1.5em" width="3.5em" stroke="#ec3238" /> 
           : <button onClick={assignScheduleRides} type="button" disabled={(isEmpty(errors) && isValid) ? false : true} className="btn btn-primary animate__animated animate__pulse">Assign</button>
         }
     </div>

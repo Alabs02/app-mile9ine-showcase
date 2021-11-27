@@ -158,7 +158,7 @@ const UserBookRide = () => {
 
                       <div className="d-flex justify-content-end mt-4">
                         {isLoading
-                          ? <ThreeDots className="animate__animated animate__pulse" height="1.4em" width="4em" stroke="#fe634e" />
+                          ? <ThreeDots className="animate__animated animate__pulse" height="1.4em" width="4em" stroke="#ec3238" />
                           : <button onClick={getBookingInfo} type="button" className={`btn btn-primary rounded-sm px-4 ${(isValid) ? "" : "hide"}`}>Proceed</button>
                         }
                       </div>
