@@ -134,7 +134,7 @@ export const Message = () => {
 
   return (
     <Fragment>
-      <p className="m-0">Hello, Please update your profile to start using mile9ine!</p>
+      <p className="m-0">Hello, please update your profile to start using Mile9ine!</p>
       <a href={pageRoute} className="btn-sm btn btn-light">Update Profile</a>
     </Fragment>
   );
